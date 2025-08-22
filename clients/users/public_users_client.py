@@ -1,19 +1,26 @@
 from typing import TypedDict
-import httpx
+
+from httpx import Response
 
 from clients.api_client import APIClient
+from clients.public_http_builder import get_public_http_client
 
 
-class UserCreateRequest(TypedDict):
+# Добавили описание структуры пользователя
+class User(TypedDict):
     """
-    Структура тела запроса для создания пользователя.
+    Описание структуры пользователя.
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
 
-    Обязательные поля:
-        email (str): Электронная почта пользователя.
-        password (str): Пароль.
-        lastName (str): Фамилия.
-        firstName (str): Имя.
-        middleName (str): Отчество.
+
+class CreateUserRequestDict(TypedDict):
+    """
+    Описание структуры запроса на создание пользователя.
     """
     email: str
     password: str
@@ -22,31 +29,38 @@ class UserCreateRequest(TypedDict):
     middleName: str
 
 
+# Добавили описание структуры ответа создания пользователя
+class CreateUserResponseDict(TypedDict):
+    """
+    Описание структуры ответа создания пользователя.
+    """
+    user: User
+
+
 class PublicUsersClient(APIClient):
     """
-    Клиент для публичных методов Users API, не требующих авторизации.
-
-    Предназначен для вызова эндпоинтов `/api/v1/users`, для регистрации нового пользователя.
+    Клиент для работы с /api/v1/users
     """
 
-    def create_user_api(self, request: UserCreateRequest) -> httpx.Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
-        Создать пользователя через публичный эндпоинт.
+        Метод создает пользователя.
 
-        Выполняет POST-запрос к `/api/v1/users` с переданным телом запроса.
-
-        Args:
-            request (UserCreateRequest):
-                Словарь с обязательными полями:
-                    - email (str): Электронная почта.
-                    - password (str): Пароль.
-                    - lastName (str): Фамилия.
-                    - firstName (str): Имя.
-                    - middleName (str): Отчество.
-
-        Returns:
-            httpx.Response: HTTP-ответ сервера.
-                - 200: Успешное создание пользователя (JSON с данными пользователя).
-                - 422: Ошибка валидации (JSON с detail).
+        :param request: Словарь с email, password, lastName, firstName, middleName.
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/users", json=request)
+
+    # Добавили новый метод
+    def create_user(self, request: CreateUserRequestDict) -> CreateUserResponseDict:
+        response = self.create_user_api(request)
+        return response.json()
+
+
+def get_public_users_client() -> PublicUsersClient:
+    """
+    Функция создаёт экземпляр PublicUsersClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию PublicUsersClient.
+    """
+    return PublicUsersClient(client=get_public_http_client())
