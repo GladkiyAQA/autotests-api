@@ -27,9 +27,6 @@ class UserSchema(BaseModel):
     first_name: str = Field(alias="firstName")
     middle_name: str = Field(alias="middleName")
 
-    def get_username(self) -> str:
-        return f"{self.first_name} {self.last_name}"
-
 
 class CreateUserRequestSchema(BaseModel):
     """
@@ -92,7 +89,6 @@ create_resp_model = CreateUserResponseSchema.model_validate_json(create_resp_jso
 print("CreateUserResponse (JSON):", create_resp_model)
 print(create_resp_model.model_dump())
 print(create_resp_model.model_dump(by_alias=True))
-print("Full name:", create_resp_model.user.get_username())
 
 # 4) Пример ошибки валидации (некорректный email)
 try:
