@@ -24,6 +24,8 @@ class GetCoursesQuerySchema(BaseModel):
     """
     Структура query-параметров для получения списка курсов.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     user_id: str = Field(alias="userId")
 
 
@@ -66,3 +68,15 @@ class UpdateCourseRequestSchema(BaseModel):
     description: str | None = Field(default_factory=fake.text)
     # Добавили генерацию случайного предполагаемого времени прохождения курса
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
