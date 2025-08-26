@@ -21,8 +21,10 @@ class ExerciseSchema(BaseModel):
 
 class GetExercisesQuerySchema(BaseModel):
     """
-    Query-параметры для получения списка заданий.
+    Структура query-параметров для получения списка заданий.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     course_id: str = Field(alias="courseId")
 
 
