@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIzOjA1OjQ4LjUxMTMxNCIsInVzZXJfaWQiOiIwZDA4ZmU5OC0xMTBjLTRkZmYtOWYzNi0zZTc2OWE3MThkMWUifQ.znbp457yxXaG8cGKdpz8fK1UoLAM-LNixG3nyaehm2I' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Return eight throw board minute couple allow.","maxScore":93,"minScore":12,"description":"Structure forget a owner. Today charge friend relationship subject project guy ready.\nFactor election she everyone knowledge.","estimatedTime":"7 weeks","previewFileId":"ee0d61a1-abf4-4941-b08d-2d6d2abdf04d","createdByUserId":"0d08fe98-110c-4dff-9f36-3e769a718d1e"}'

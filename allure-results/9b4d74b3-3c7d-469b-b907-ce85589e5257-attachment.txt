@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3dcd4383-6d1d-4658-8372-fb7b24fb7299' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIzOjA1OjQ3Ljk5NzQzMCIsInVzZXJfaWQiOiIwNzJkM2M5Ni1hZGQ5LTQ3NWMtYmQxNS03MTJjYzVjMzc2MmYifQ.nWVbh6YEcGehKfx5bdyS3RgxuYvaT12RGhPURlye4mc' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score room so approach hair road radio.","maxScore":87,"minScore":21,"description":"Page something back individual practice. Water often present someone full.\nBar why join eat. Alone production light radio until blue. Get painting risk prepare standard.","estimatedTime":"8 weeks"}'

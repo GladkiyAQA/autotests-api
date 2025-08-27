@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIzOjA1OjQ5LjAyMDk2MyIsInVzZXJfaWQiOiIyMmY3NTk0My02Yzc0LTQ0NDItOWNiNy01YzE0NTk2ZThkNDUifQ.FIh2hKo-VXap3aNg3KPipC3de_a9gzzerUH2juNGSc0' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though whom piece itself.","maxScore":84,"minScore":28,"description":"Whose trouble company move alone attorney difficult. Peace Mrs when create design sing. Action in nothing act such special line.","estimatedTime":"8 weeks","previewFileId":"0fc81fe0-1b0a-46ec-8994-1044c3d956b8","createdByUserId":"22f75943-6c74-4442-9cb7-5c14596e8d45"}'

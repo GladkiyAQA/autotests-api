@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIzOjA1OjUwLjA1NzQzOCIsInVzZXJfaWQiOiIzNTBmM2I2NS02ZmY1LTRmMjItODI4MC05ZDhhNGRiOWU5MWIifQ.vaF53dK1xkdN7y1h9GHYuuK_4CD0AY6O4ZWrGhoojYQ' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite view everything attention.","maxScore":96,"minScore":6,"description":"Religious may order sort small next event. Professor more example bar rather suggest leave another.\nReal argue nation water near when coach subject. Animal begin which stand trial hope already eat.","estimatedTime":"5 weeks","previewFileId":"2503b4da-22b9-4b7d-98d1-bfe3b26f0be0","createdByUserId":"350f3b65-6ff5-4f22-8280-9d8a4db9e91b"}'

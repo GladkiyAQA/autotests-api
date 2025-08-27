@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI3VDIzOjA1OjQ5LjUzODE1OCIsInVzZXJfaWQiOiIyYjM4MzcwZC01YTY3LTQ0OGItYjA2MS0zMTk5MWMyODk3M2EifQ.O_AXoGU_WtaColHwDE7lqGN9Se8eTsF1CzGxl6tH43U' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good allow learn tonight herself.","maxScore":60,"minScore":1,"description":"Respond everybody positive amount.\nOwner work past tend red. Also ground or such. Serious attack vote table long.","estimatedTime":"1 weeks","previewFileId":"20d5bf69-d98c-458b-a69f-9cb2653927f0","createdByUserId":"2b38370d-5a67-448b-b061-31991c28973a"}'
