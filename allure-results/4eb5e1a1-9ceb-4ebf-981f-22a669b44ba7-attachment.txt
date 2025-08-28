@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDE4OjI0OjAwLjU5NDI3MyIsInVzZXJfaWQiOiI5NTI0NGQwZS0wZGVmLTQwYTktODRkMy0yNTJmYzQzODAzMGYifQ.fJMT59p5Wfo64gXXTEtFheHf5danX2V5ogNLXtc5gWc' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could artist identify the court.","maxScore":78,"minScore":4,"description":"Exactly east perhaps plant conference executive. Type condition nice really.\nBag best boy home live sea. Ok new condition offer admit wide. Person work politics stuff station these phone.","estimatedTime":"7 weeks","previewFileId":"fc08bc2a-8661-4fd5-81c1-14dd4172a8da","createdByUserId":"95244d0e-0def-40a9-84d3-252fc438030f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDE4OjIzOjU4LjUxOTA0NSIsInVzZXJfaWQiOiJlNmY3ZjJjNC0wNjg2LTRhYTctOTM1YS05YTcyNzlhMWMxMGUifQ.f2h0BO3iRGz_CGg4BmpyP0N4uuq-sJl5DSGPezMAw4Y' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Art agent instead career Democrat.","maxScore":56,"minScore":9,"description":"Card cold within majority today.\nForget number that data piece. Five much age these often speech.","estimatedTime":"1 weeks","previewFileId":"dd61e091-2db1-4ca5-856a-9c795b8c749a","createdByUserId":"e6f7f2c4-0686-4aa7-935a-9a7279a1c10e"}'

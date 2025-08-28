@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b921f695-6f6a-4b88-94be-3c803eaa27d7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDE4OjIzOjU4LjAwMTk4NSIsInVzZXJfaWQiOiI5NTQyODQ1MC01MjRlLTRkNGYtYjg1Mi1kODhkY2Y0OGYxNTMifQ.77OxAqMW0dq_Gn_i8UGm5zk1BePN3cHNjTuZwMbYe44' \
+  -H 'content-length: 247' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious sell all reason painting forward ask.","maxScore":65,"minScore":27,"description":"Sell media wrong need more. Listen onto office chair fill matter economic.\nHave surface check rise movie design exist.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDE4OjI0OjAwLjA3Mzg4NyIsInVzZXJfaWQiOiJkODBkMjFmMi1hMjlmLTQ5YTgtYTFlNS1lY2Q5NzdkNmEzMjAifQ.gm1kGOCnuHw7vnYA12SYeuCY2zIwiUUGt36wPyX3eWU' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His young speech seat single.","maxScore":68,"minScore":6,"description":"All fill present senior night instead blue the. Doctor ball owner grow nice.","estimatedTime":"10 weeks","previewFileId":"8c017a9b-0e11-477f-98fb-1d796fb7f2ef","createdByUserId":"d80d21f2-a29f-49a8-a1e5-ecd977d6a320"}'

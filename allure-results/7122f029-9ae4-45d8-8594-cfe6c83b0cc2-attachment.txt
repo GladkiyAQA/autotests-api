@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDE4OjIzOjU4LjAwMTk4NSIsInVzZXJfaWQiOiI5NTQyODQ1MC01MjRlLTRkNGYtYjg1Mi1kODhkY2Y0OGYxNTMifQ.77OxAqMW0dq_Gn_i8UGm5zk1BePN3cHNjTuZwMbYe44' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead garden also pick.","maxScore":97,"minScore":10,"description":"Box because put teach. Walk morning project responsibility risk.\nAlways church end ground. Resource establish poor interest street face magazine certainly. Mean though finally.","estimatedTime":"2 weeks","previewFileId":"c39fbd11-dcaf-4a1a-b574-3f3b59fe7377","createdByUserId":"95428450-524e-4d4f-b852-d88dcf48f153"}'
