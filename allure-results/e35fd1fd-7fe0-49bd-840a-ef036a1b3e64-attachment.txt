@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIwLjY2NTM1OSIsInVzZXJfaWQiOiIwOTg4MjI0MS02MTZiLTQ1ZDAtODRlMS0yZmU0OGI3ZDE3OGQifQ.VyN6ES6P2yOJvX0BC-16K0XnZiIHukCWQ6W3EWmpgm0' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip letter at appear.","maxScore":78,"minScore":3,"description":"Stand sense national list do apply. Race treat what special low car follow.\nNearly will live recognize foreign. Network care society alone ready position evidence. Bar take fill firm good.","estimatedTime":"3 weeks","previewFileId":"550c3ca1-cde6-422c-820d-dbd92477f72e","createdByUserId":"09882241-616b-45d0-84e1-2fe48b7d178d"}'

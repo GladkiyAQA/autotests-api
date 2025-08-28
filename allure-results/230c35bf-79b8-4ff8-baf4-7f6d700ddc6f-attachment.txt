@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIxLjE4MDY2OCIsInVzZXJfaWQiOiI3MDljNTQwZC0wN2I5LTQxOGYtOTllYS1lOGE2NWUxZWU5YzMifQ.oqKfrcIgYd6VeOTNE-7EI3mN5f7d2PK6XUIQ0Rr7wFQ' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night wrong challenge give.","courseId":"f8d5bbee-7562-4c4d-9f06-09ebe476e47c","maxScore":74,"minScore":16,"orderIndex":44,"description":"Bag through general executive American. Again lay girl usually mission quite. Call help opportunity effort. Mean among parent.","estimatedTime":"3 weeks"}'

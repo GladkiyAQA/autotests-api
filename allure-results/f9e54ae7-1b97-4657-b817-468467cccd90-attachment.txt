@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIxLjY4OTc0MiIsInVzZXJfaWQiOiI5MDcyODUyOS1lYTEyLTRkZDAtYTE0MS00ZTQwNmU5ZDk5MjYifQ.vF5ygzteM7MDgQKBXpsP6yBaC-ywzvUruErm4TiS11A' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Central firm boy.","courseId":"dbd55066-c5e8-4e71-9080-2b00eddc9044","maxScore":58,"minScore":13,"orderIndex":54,"description":"Front around pressure may thousand. Actually fear federal much national. Candidate wide eat change.","estimatedTime":"4 weeks"}'

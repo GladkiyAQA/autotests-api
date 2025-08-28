@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIzLjI0MDI4NyIsInVzZXJfaWQiOiIxMDY2MDY5Ny05YmNjLTRhNGMtOWZhZS1jZDNlNDUzZDNlNzQifQ.0Xhb6anx0mUHivK6LdjHfipsqMI0bbKIvMnKlVgj6iA' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scene include system article will laugh whom reality.","courseId":"c7712a94-f432-4786-a809-55cd95f8353d","maxScore":74,"minScore":21,"orderIndex":40,"description":"Though senior address begin. Dog authority entire case eat. Hope interesting they stuff eight. Live seek must also detail.\nSo discover once six develop.","estimatedTime":"9 weeks"}'

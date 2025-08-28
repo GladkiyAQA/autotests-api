@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQ0OjAyLjkxMzE3NiIsInVzZXJfaWQiOiI0NWU4NTU1Zi02MzFkLTQ0NWYtYjViNi1iYWZlM2IwOGQxZDMifQ.uWnmijQxHJtyXVq0BiwH725NSyrzsY98ZWI0pEDeywg' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term loss assume focus central bring free.","maxScore":92,"minScore":21,"description":"Become standard significant gun fly medical. Hundred rule finish anything might. Traditional network piece start.","estimatedTime":"4 weeks","previewFileId":"33f516ab-ea36-44d1-a2e5-8c3c11644efd","createdByUserId":"45e8555f-631d-445f-b5b6-bafe3b08d1d3"}'

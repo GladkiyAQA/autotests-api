@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQ0OjAzLjQzMTczMyIsInVzZXJfaWQiOiJlMjMxZWRlNi1hNjNiLTQwNjctOTMzYi0xMTY2Njc4Njc1MGUifQ.s05SyLUNvoBPBcVCmjO06Pr9Gk15SI5ZVXiL4a0jnF4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost particular them Mr information.","maxScore":79,"minScore":20,"description":"Because hospital anything data. Interest training head.\nBoth center me food. Campaign family heart national. Price trip this chance.","estimatedTime":"7 weeks","previewFileId":"f397f1be-a9b8-4c0b-8e8f-84395677c53d","createdByUserId":"e231ede6-a63b-4067-933b-11666786750e"}'

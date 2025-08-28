@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQ0OjAyLjkxMzE3NiIsInVzZXJfaWQiOiI0NWU4NTU1Zi02MzFkLTQ0NWYtYjViNi1iYWZlM2IwOGQxZDMifQ.uWnmijQxHJtyXVq0BiwH725NSyrzsY98ZWI0pEDeywg' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father skill personal key we.","courseId":"3f25e076-1380-4868-8631-3afbe729ee25","maxScore":62,"minScore":6,"orderIndex":6,"description":"Call bit single almost person draw. Suffer whatever approach lead right tree.\nTown save wear modern player information. Brother during street huge never commercial wind capital.","estimatedTime":"3 weeks"}'

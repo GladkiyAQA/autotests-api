@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQyOjE3LjQwNjcwNCIsInVzZXJfaWQiOiI1YzY5NmI4My0zZGI3LTQ5MTAtYmQ0NS1kOTg2MGMwZmYzZjYifQ.mTc1eRD4yjQ1iaxwHI7LOQHlF5PU2rq78575dsudgOA' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Western spend inside child then dream theory military.","maxScore":53,"minScore":27,"description":"Country main month far enjoy view both light.\nOrganization final should product particular. Former great of gun while.","estimatedTime":"6 weeks","previewFileId":"2585ce6b-1041-4ee6-8fd9-0f74584af9ba","createdByUserId":"5c696b83-3db7-4910-bd45-d9860c0ff3f6"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b83a8324-fde5-498c-977d-5dc18f19a196' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIwLjY2NTM1OSIsInVzZXJfaWQiOiIwOTg4MjI0MS02MTZiLTQ1ZDAtODRlMS0yZmU0OGI3ZDE3OGQifQ.VyN6ES6P2yOJvX0BC-16K0XnZiIHukCWQ6W3EWmpgm0' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Way save recent first father represent answer.","maxScore":81,"minScore":15,"description":"With north environmental character of raise. Must cultural cup industry hold look better.\nFoot around recent listen usually policy special. Food amount million message three.","estimatedTime":"7 weeks"}'

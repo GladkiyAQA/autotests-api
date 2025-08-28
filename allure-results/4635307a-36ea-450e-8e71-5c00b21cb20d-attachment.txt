@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjUyOjIwLjE2MDkzOSIsInVzZXJfaWQiOiI0NGM3YTg5Ny0xZDZkLTQxMGQtOGNmMy1mZGY5MDQ4YThmZWIifQ.bDXmeFCgSP6kZIUrot0FtpisCqblwBfjxpI7n7rCYPw' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next structure check even apply our.","maxScore":54,"minScore":6,"description":"Help explain mouth. Bill standard computer half bad ball.\nClearly them magazine sound under finish first. Theory daughter on understand knowledge.","estimatedTime":"1 weeks","previewFileId":"5ef04150-4ee7-4d90-bdb5-01020ec7a80a","createdByUserId":"44c7a897-1d6d-410d-8cf3-fdf9048a8feb"}'

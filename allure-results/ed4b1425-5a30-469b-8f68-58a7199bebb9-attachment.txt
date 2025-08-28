@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQ0OjAxLjM3ODg2MSIsInVzZXJfaWQiOiI3YmVkODNiZC1kMmM3LTQ2ZTctYWRjZi1hOWFjNzRmNTNjMzYifQ.Z4oeVY22-4LtkfB2NRkRWIEdv_eP0MXE0OD0YEg4H_I' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect art development maintain.","maxScore":77,"minScore":11,"description":"Store number should can smile determine shoulder. Ready too draw join picture send section. Draw benefit past available hand cut bag structure.","estimatedTime":"2 weeks","previewFileId":"9abf64f6-5d4a-497f-ac89-340ae61b77da","createdByUserId":"7bed83bd-d2c7-46e7-adcf-a9ac74f53c36"}'

@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/b83a8324-fde5-498c-977d-5dc18f19a196
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/b83a8324-fde5-498c-977d-5dc18f19a196
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:25 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Way save recent first father represent answer.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 81
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to With north environmental character of raise. Must cultural cup industry hold look better.
+Foot around recent listen usually policy special. Food amount million message three.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

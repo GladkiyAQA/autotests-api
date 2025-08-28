@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQyOjE3LjkxOTM5NiIsInVzZXJfaWQiOiI4ZDlmNGUzNC1hY2JiLTQwMDQtYTg4NS00MmY3OWZhNjhkNDkifQ.UcZ_PU8iOwObBOMpWdvIYrBtzLrmOCZ0I-tIEoJFn2Q' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate series want begin.","maxScore":83,"minScore":7,"description":"Couple region admit along national half. Economy perhaps deal perform reflect hot through.\nFall happen image. Newspaper new catch white force culture. Majority PM civil thank unit step.","estimatedTime":"3 weeks","previewFileId":"6af41047-dbf9-484a-a841-8be9afebcd62","createdByUserId":"8d9f4e34-acbb-4004-a885-42f79fa68d49"}'

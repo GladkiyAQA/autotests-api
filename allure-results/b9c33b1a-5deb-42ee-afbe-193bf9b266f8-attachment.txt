@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQyOjIwLjI5OTE5NCIsInVzZXJfaWQiOiJkYTI2MTIxNi1kODIyLTQ2YzMtOWY5NS0yN2Y2MjY0NjZkN2YifQ.augLl6qX1ovWGwGos44IsOsU2-mSHSEYDlDtfhZzsIA' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss perhaps executive before write.","maxScore":59,"minScore":7,"description":"Main expert prevent about. Care south already raise drug behind.\nProvide read it prepare. Plant answer experience inside. Heart section camera new ok.","estimatedTime":"2 weeks","previewFileId":"36c05923-8c31-46f9-aaf0-65462d5df612","createdByUserId":"da261216-d822-46c3-9f95-27f626466d7f"}'

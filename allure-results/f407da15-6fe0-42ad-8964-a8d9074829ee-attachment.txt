@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI4VDIxOjQ0OjA0LjQ2Mjk0OSIsInVzZXJfaWQiOiI3NjkyMjcwZi1iNjg4LTQxZjAtOWM0OC0xNzRiOWM5ZTU2ZWMifQ.G127N5nCAd6t69Y2hEd0GuIXYaf3E8iGElIlVJqBP8E' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"In opportunity hour only big me executive.","maxScore":57,"minScore":21,"description":"Investment activity positive make each. Car trouble some table shake. Partner charge you friend in knowledge usually.\nMyself until write. Rock event least cell.","estimatedTime":"10 weeks","previewFileId":"deca5272-1ba7-43c8-8855-d13c315dc7ff","createdByUserId":"7692270f-b688-41f0-9c48-174b9c9e56ec"}'

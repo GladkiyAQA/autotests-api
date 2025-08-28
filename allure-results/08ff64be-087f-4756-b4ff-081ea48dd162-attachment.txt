@@ -1,0 +1,21 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/adc6224e-c727-4fa4-aced-d98e32b4c429
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/adc6224e-c727-4fa4-aced-d98e32b4c429
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:85 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Everybody drop out owner.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Sit everybody country claim government join. Cause animal court language star nearly agent.
+Similar eye worry know hard tonight early. May scene author occur series job traditional.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 93
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 2 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema
