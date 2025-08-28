@@ -5,7 +5,7 @@ from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
-
+from config import settings
 
 # 1. Создание пользователя
 public_users_client = get_public_users_client()
@@ -26,7 +26,7 @@ courses_client = get_courses_client(auth_user)
 
 # 4. Загрузка файла
 create_file_request = CreateFileRequestSchema(
-    upload_file="./testdata/files/image.png"
+    upload_file=settings.test_data.image_png_file
 )
 create_file_response = files_client.create_file(create_file_request)
 print("File uploaded:", create_file_response)
