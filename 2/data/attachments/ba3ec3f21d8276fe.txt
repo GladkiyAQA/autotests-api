@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAzLjI2MjQwOCIsInVzZXJfaWQiOiJjODI4NGZhNy05MWYzLTRiZWMtOTczZC01Yzg4MDM0ZDQ5YWUifQ.RxsE5A2qh_aQPaOrWxv_vjZNsOIF7k7eY541FkrPyCg' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area team something cold.","maxScore":88,"minScore":19,"description":"Phone send too success now. Effort although concern government current. Task special class key.","estimatedTime":"2 weeks","previewFileId":"ba4cb322-60e3-44d6-9cdc-9aeedec7d0a1","createdByUserId":"c8284fa7-91f3-4bec-973d-5c88034d49ae"}'

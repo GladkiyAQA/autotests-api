@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAyLjY4MDk2NyIsInVzZXJfaWQiOiIwZTUyMDNmNy01YzE0LTQzZDEtODljYy00OGU4Y2Y4ZWU4MTgifQ.7v9uPn0DvZqVOnfDtHoyy66JHDT8WHIQbGgW0GDPnl4' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final party whether contain lawyer.","maxScore":80,"minScore":6,"description":"Firm range difficult mind research place. Interesting win amount produce wrong. Tax laugh today.\nMonth others beautiful across. Western against make send forget from seven economic.","estimatedTime":"10 weeks","previewFileId":"81e55f91-0c5a-4143-89cb-8ec8bcd79f99","createdByUserId":"0e5203f7-5c14-43d1-89cc-48e8cf8ee818"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAzLjI2MjQwOCIsInVzZXJfaWQiOiJjODI4NGZhNy05MWYzLTRiZWMtOTczZC01Yzg4MDM0ZDQ5YWUifQ.RxsE5A2qh_aQPaOrWxv_vjZNsOIF7k7eY541FkrPyCg' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which wife today consumer public.","courseId":"a12d31cc-1b35-4b99-b3e4-06b9509cd15b","maxScore":78,"minScore":20,"orderIndex":13,"description":"Specific thousand tax. Back time suggest executive language. Into heart win magazine myself agency out.","estimatedTime":"3 weeks"}'

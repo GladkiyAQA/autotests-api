@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjA0LjQ5MjU5OSIsInVzZXJfaWQiOiIyZWQ1ZTNkZC02NjFmLTRlNjEtODY5MC02MzJmNjE2MGE3OGIifQ.Nw4kzcuAuhwAb5nGJn4E_GHNYyKyUMRWml8sTR-irEE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West visit television director.","maxScore":99,"minScore":19,"description":"Field staff various keep nation control.\nBad score north effect. Understand some budget play surface eye suffer. Pattern sort look material only unit per.","estimatedTime":"2 weeks","previewFileId":"8a186894-2ca5-4560-abf2-dc019da9c660","createdByUserId":"2ed5e3dd-661f-4e61-8690-632f6160a78b"}'

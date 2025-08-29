@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAwLjMzNzc0MyIsInVzZXJfaWQiOiJlOTg4NGY1OC1hNGZhLTRiZmYtODQ5Yy0zN2UzNzMxZDc3YmYifQ.vbPr330xNYCblmVxMhpjvlrweLIdF-jWWwoMml_Sp10' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He guess word south wide lose.","maxScore":74,"minScore":18,"description":"Listen interesting fall try direction person. Recent space century part source section Mr. People factor street officer.","estimatedTime":"5 weeks","previewFileId":"45082931-0611-401d-9cb0-4edfece13791","createdByUserId":"e9884f58-a4fa-4bff-849c-37e3731d77bf"}'

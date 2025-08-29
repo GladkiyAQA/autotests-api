@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3bd70b05-ccb6-4b24-99fa-1408b4938d02' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAxLjUwNjAzNiIsInVzZXJfaWQiOiIyN2I4NDA0MS0zMzA3LTQwYjQtOWE2OS1jNGE0OTJjMjRhNjYifQ.aUHQMhmXX-w9WapwPOZpZDa9fyqopA78RNqbgWjUsIU' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond reflect item leader.","maxScore":61,"minScore":10,"description":"Word decide full Democrat. Would become near section TV group approach.\nDefense people watch serious home next. Nor this set film.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEzOjIxOjAzLjkwNzI0NCIsInVzZXJfaWQiOiJiMzdlMzEwMS02ZTljLTRhMmMtYjg3OC05ZDRhNDZmNzQ4YTYifQ.eTFjjAL34kIAjeqTcfxjPZPF5SZWw_UX42CDnMWdx6U' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow glass manager office also.","maxScore":90,"minScore":3,"description":"Paper wall young. Full feel feel usually company. Indicate range successful goal.\nMake writer according young cause. Generation cold line door recognize.","estimatedTime":"8 weeks","previewFileId":"dfdd06d9-ec3e-449d-b240-8fbe2693a3ba","createdByUserId":"b37e3101-6e9c-4a2c-b878-9d4a46f748a6"}'
