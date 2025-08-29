@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjE4LjgxNjM3NyIsInVzZXJfaWQiOiI3ODdlNDNhMS03ODMxLTQxZTAtYTFjYy00NjFhZjljZjYxNDgifQ.07tcwjxNWc_qBbMwgB76CMik3S3fXAW4zTTH5M3iI9A' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also agent describe chair miss if traditional position.","maxScore":100,"minScore":15,"description":"Probably travel several garden hundred reduce evidence. Newspaper including happy sound factor always nothing. He ready somebody maintain individual.","estimatedTime":"5 weeks","previewFileId":"92e16742-b55b-4019-950f-a15d9828f71d","createdByUserId":"787e43a1-7831-41e0-a1cc-461af9cf6148"}'

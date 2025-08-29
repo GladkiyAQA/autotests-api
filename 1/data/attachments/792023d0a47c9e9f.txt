@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjE3LjYyOTcyNiIsInVzZXJfaWQiOiIyYWU4Y2IzYi1hMTZkLTQ5MWMtYWRhNC1kM2RhNDc2ZTMyYzEifQ.bScNBlEkPptsWqlna0eAVW67Gc_hlsS5v51CXTxVhbI' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family professor rich may without help.","maxScore":66,"minScore":27,"description":"Person range hundred Mr production need stop range. Character together take special.\nChange step myself show large everyone again. Power act finish staff simply grow. Natural Congress them most.","estimatedTime":"5 weeks","previewFileId":"3d121a2a-84f5-4a13-8c51-9396c01116fd","createdByUserId":"2ae8cb3b-a16d-491c-ada4-d3da476e32c1"}'

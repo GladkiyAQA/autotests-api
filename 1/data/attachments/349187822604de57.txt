@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/53078ead-1473-4f51-8377-b053e900f08c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjE3LjYyOTcyNiIsInVzZXJfaWQiOiIyYWU4Y2IzYi1hMTZkLTQ5MWMtYWRhNC1kM2RhNDc2ZTMyYzEifQ.bScNBlEkPptsWqlna0eAVW67Gc_hlsS5v51CXTxVhbI' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become either respond couple item last speak.","maxScore":69,"minScore":1,"description":"School full city into social. Worry top sign relate.\nHusband town green size. Operation executive building mother.\nGuess son language road right poor.","estimatedTime":"1 weeks"}'

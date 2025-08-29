@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjIwLjkxMjY4MyIsInVzZXJfaWQiOiI4ZDE3ZGU1NS0zN2M2LTQ0MTEtYWM0OS05Y2Q3OGQzN2E2ODAifQ.vvvaqaA94natwJi7x2vDwJGQ-MEWMCV01ScVDURpRIw' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop event anyone truth senior Democrat keep.","maxScore":100,"minScore":23,"description":"Truth take know within exactly yet. Series spring fund past article generation I.\nCompany list debate thing. Next above high lot.","estimatedTime":"2 weeks","previewFileId":"43715e1b-866a-4fcf-b666-39fe301f2d84","createdByUserId":"8d17de55-37c6-4411-ac49-9cd78d37a680"}'

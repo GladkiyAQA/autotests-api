@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjE2LjIyMjk3NyIsInVzZXJfaWQiOiJlMTJhMzc3ZC0yM2NhLTRmNGItYWQ5Yi03MWJjZThlOTU5ZDUifQ.8MhCbogMd2qyvea5owqQyEDpQCtYqy9HM05ViHbzVYg' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell least find social sometimes.","maxScore":90,"minScore":27,"description":"Office town move live. Near under school build. Cup country address.\nIt deal thousand.","estimatedTime":"10 weeks","previewFileId":"9ffa05ce-22fc-4e97-92c0-ea3d7b10f8c0","createdByUserId":"e12a377d-23ca-4f4b-ad9b-71bce8e959d5"}'

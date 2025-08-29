@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI5VDEyOjUwOjE5Ljk5NDIyNiIsInVzZXJfaWQiOiIyMDE0OTIwYy03MjAyLTQ2Y2QtYWZiMy00NjA5ZmRmMmEzY2UifQ.RB_8mv1Z6M8rB-1-gQBunUPqi-kvY3q9AwCr2i6lSag' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit ahead figure actually art network or machine.","maxScore":79,"minScore":17,"description":"Blue professional five character type. Affect former business ahead really Democrat.\nRequire summer technology teacher debate pull. Near day exist during believe thus available.","estimatedTime":"6 weeks","previewFileId":"5b01456a-55b4-4fc8-b941-e032df32e7c0","createdByUserId":"2014920c-7202-46cd-afb3-4609fdf2a3ce"}'
