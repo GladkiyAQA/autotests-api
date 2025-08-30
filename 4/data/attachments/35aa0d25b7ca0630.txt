@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjU3OjQ0LjQ2OTYzNyIsInVzZXJfaWQiOiI3ZGMyM2ViZi0zMmNlLTQyYWUtYjZhYi04Mjk2ODcyNTk1NDcifQ.YYhVCQMDe669PYhRFIl2ypgO5meM0Inx2foXIJ7B5js' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Door difference together huge within.","maxScore":67,"minScore":24,"description":"Again blue bank build each later. Administration number parent whatever forget describe.\nEver attorney impact north. Edge personal instead age according. Shake music hair pretty.","estimatedTime":"7 weeks","previewFileId":"479fb9a5-e6fe-4259-a8f6-0a34d85f0c71","createdByUserId":"7dc23ebf-32ce-42ae-b6ab-829687259547"}'

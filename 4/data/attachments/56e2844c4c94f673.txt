@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjU3OjQ1LjY5MDAwMCIsInVzZXJfaWQiOiJjODY3NjdhMi0wZTJkLTQyMmEtOGQ0ZS03OTBkNjBiMTUwM2IifQ.9hF0LAATGELlm5r9axeI_VPReXYtMcv_q-QUAMPMtSA' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair avoid thank top that.","maxScore":63,"minScore":21,"description":"Century me buy edge really large. Local indicate so away. Heart education term own five the institution weight.","estimatedTime":"1 weeks","previewFileId":"8d35b530-8056-4fbf-9cc3-8b3d2e378721","createdByUserId":"c86767a2-0e2d-422a-8d4e-790d60b1503b"}'

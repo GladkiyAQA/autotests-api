@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjU3OjQ2LjI2NzQ0MSIsInVzZXJfaWQiOiJiZjA2YTViZC05MmU5LTQ5ZGUtYTY1ZS1lZjljMjE3ZmY0YmEifQ.fVXpzegJbNR0QxrAWUlSAoquLcxpSLUgAKl5hHRSMvE' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Still some factor what drop in rather.","maxScore":100,"minScore":17,"description":"Court garden security hope floor partner.\nWin surface past ahead well image she.\nRange we our key face former science. Many movie try.\nMost management personal information who. Risk test sound media.","estimatedTime":"3 weeks","previewFileId":"b966517d-21f9-4719-a34a-a6c93f3640b0","createdByUserId":"bf06a5bd-92e9-49de-a65e-ef9c217ff4ba"}'

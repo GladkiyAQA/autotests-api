@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3d6fa6f7-344a-408f-9764-7a0980b0b78c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjU3OjQ0LjQ2OTYzNyIsInVzZXJfaWQiOiI3ZGMyM2ViZi0zMmNlLTQyYWUtYjZhYi04Mjk2ODcyNTk1NDcifQ.YYhVCQMDe669PYhRFIl2ypgO5meM0Inx2foXIJ7B5js' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot across door authority under place behavior.","maxScore":93,"minScore":1,"description":"Building table later scientist serve card member. Agency firm American apply partner right six. Paper easy her us more act line.","estimatedTime":"8 weeks"}'

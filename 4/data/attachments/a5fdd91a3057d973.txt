@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjU3OjQzLjg5MDI1OSIsInVzZXJfaWQiOiIyOGJmNzNhOC1kNTYzLTQ2NDYtOTNjNi04MDA3MmQ0ZmU4M2YifQ.3mnZ6U58gc6Wbg5VCiincO4Pz9k7dwLl01Jaxv9X9cQ' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Include new material hope member.","maxScore":74,"minScore":13,"description":"Executive stock manager house kind possible organization. Including trouble think result organization child shake begin.","estimatedTime":"5 weeks","previewFileId":"6c0099fc-c6f2-4da9-b7b5-594cd6e254ec","createdByUserId":"28bf73a8-d563-4646-93c6-80072d4fe83f"}'
