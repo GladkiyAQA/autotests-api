@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ1OjU4LjE5NjExMSIsInVzZXJfaWQiOiI0N2I3MWQzMC02NzFkLTRlYWEtYWY2MC0xNmYwYWNhOGFmYTIifQ.8YSDurdb69A-f3mtQwuvHjj-02k2QrHd95TXHLtppKM' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Religious capital let knowledge trip father.","maxScore":54,"minScore":2,"description":"Movie those push site claim appear simple. With role again quickly.\nAge itself class sometimes its star. Structure our seat including any.","estimatedTime":"10 weeks","previewFileId":"6a0424ba-25e1-49ca-bf57-8c2403755b92","createdByUserId":"47b71d30-671d-4eaa-af60-16f0aca8afa2"}'

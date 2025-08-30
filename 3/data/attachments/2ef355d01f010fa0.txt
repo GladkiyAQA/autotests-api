@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAwLjUzODM2NyIsInVzZXJfaWQiOiIzYTA5ODNmOS1hY2NkLTQ3M2EtYmUzNC1lNjk4OTdmMzhmYzYifQ.M44-FFU8GArlDCw0oZwd4h6e8TipqCyoKVLSclDYs_k' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change campaign career throw under.","maxScore":90,"minScore":25,"description":"Pattern effort property do report. Indeed only two ok member. Somebody vote himself meet himself language. Window once white work quickly need very page.","estimatedTime":"5 weeks","previewFileId":"3cbc82e0-9dd0-4644-8a07-5d37298a4b90","createdByUserId":"3a0983f9-accd-473a-be34-e69897f38fc6"}'

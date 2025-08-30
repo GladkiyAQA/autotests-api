@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ1OjU5LjMzODE2MSIsInVzZXJfaWQiOiJlZWMyZWExNS1jZmJmLTRiYmItODFmOC0wZDlhYzc0N2UwMWQifQ.sWOy7cKklCcekajAb5thM2a9n3iKiaATf-NQCsyusPw' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well heart lot decade contain director process.","maxScore":91,"minScore":27,"description":"Crime development writer side rate. Raise fight among moment government. Entire popular business else.\nInternational why attorney catch reveal field middle.","estimatedTime":"1 weeks","previewFileId":"38300606-3229-42ab-853c-71fc05350b43","createdByUserId":"eec2ea15-cfbf-4bbb-81f8-0d9ac747e01d"}'

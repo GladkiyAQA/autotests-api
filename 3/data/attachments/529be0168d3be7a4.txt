@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d17e2eb9-77ad-4d19-b1a0-793e74ead62c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ1OjU5LjYxMDcxNyIsInVzZXJfaWQiOiI0NmFlOGYyZS03MmY3LTRjMDMtOTI5MC05OTMwYzE3ODY2MWMifQ.TW6hh4EEdzD2DX24Q-Sf5eu6FcA9xq2dccZ0Zb1Wu-I' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine kind fish find mouth with.","maxScore":81,"minScore":22,"description":"Weight important song. Exactly total include.\nTv on daughter three individual society east. Southern current major get anyone well area.\nImage assume set. Set long resource challenge.","estimatedTime":"7 weeks"}'

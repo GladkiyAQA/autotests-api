@@ -1,0 +1,35 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        Проверяет обновление задания через API.
+        ","24","Update exercise","LMS service","Sat Aug 30 21:16:00 GMT 2025","passed","Sat Aug 30 21:16:00 GMT 2025","Update entity","Exercises","",""
+"
+        Проверяет удаление задания через API.
+        ","19","Delete exercise","LMS service","Sat Aug 30 21:16:02 GMT 2025","passed","Sat Aug 30 21:16:02 GMT 2025","Delete entity","Exercises","",""
+"","39","Update course","LMS service","Sat Aug 30 21:15:59 GMT 2025","passed","Sat Aug 30 21:15:59 GMT 2025","Update entity","Courses","",""
+"","554","Attempt to create user with email: mail.ru","LMS service","Sat Aug 30 21:16:05 GMT 2025","passed","Sat Aug 30 21:16:06 GMT 2025","Create entity","Users","",""
+"
+        Проверяет создание задания через API.
+        ","30","Create exercise","LMS service","Sat Aug 30 21:16:00 GMT 2025","passed","Sat Aug 30 21:16:00 GMT 2025","Create entity","Exercises","",""
+"","296","Delete file","LMS service","Sat Aug 30 21:16:05 GMT 2025","passed","Sat Aug 30 21:16:05 GMT 2025","Delete entity","Files","",""
+"
+        Проверяет создание курса через API.
+        ","40","Create course","LMS service","Sat Aug 30 21:15:58 GMT 2025","passed","Sat Aug 30 21:15:58 GMT 2025","Create entity","Courses","",""
+"","12","Get user me","LMS service","Sat Aug 30 21:16:07 GMT 2025","passed","Sat Aug 30 21:16:07 GMT 2025","Get entity","Users","",""
+"","15","Get file","LMS service","Sat Aug 30 21:16:04 GMT 2025","passed","Sat Aug 30 21:16:04 GMT 2025","Get entity","Files","",""
+"","553","Login with correct email and password","LMS service","Sat Aug 30 21:15:57 GMT 2025","passed","Sat Aug 30 21:15:58 GMT 2025","Login","Authentication","",""
+"","261","Create file with empty directory","LMS service","Sat Aug 30 21:16:05 GMT 2025","passed","Sat Aug 30 21:16:05 GMT 2025","Validate entity","Files","",""
+"","292","Attempt to create user with email: example.com","LMS service","Sat Aug 30 21:16:06 GMT 2025","passed","Sat Aug 30 21:16:06 GMT 2025","Create entity","Users","",""
+"
+        Проверяет получение задания по его ID через API.
+        ","45","Get exercise","LMS service","Sat Aug 30 21:16:02 GMT 2025","passed","Sat Aug 30 21:16:02 GMT 2025","Get entity","Exercises","",""
+"","264","Create file with empty filename","LMS service","Sat Aug 30 21:16:04 GMT 2025","passed","Sat Aug 30 21:16:04 GMT 2025","Validate entity","Files","",""
+"","560","Attempt to create user with email: gmail.com","LMS service","Sat Aug 30 21:16:06 GMT 2025","passed","Sat Aug 30 21:16:07 GMT 2025","Create entity","Users","",""
+"
+        Проверяет получение списка заданий по course_id через API.
+        ","25","Get exercises","LMS service","Sat Aug 30 21:16:03 GMT 2025","passed","Sat Aug 30 21:16:03 GMT 2025","Get entities","Exercises","",""
+"","32","Get courses","LMS service","Sat Aug 30 21:15:59 GMT 2025","passed","Sat Aug 30 21:15:59 GMT 2025","Get entities","Courses","",""
+"","26","Create file","LMS service","Sat Aug 30 21:16:03 GMT 2025","passed","Sat Aug 30 21:16:03 GMT 2025","Create entity","Files","",""
+"
+        Проверяет, что при запросе файла с некорректным UUID API
+        возвращает ошибку 422 и корректное сообщение о валидации.
+        ","264","Get file with incorrect file id","LMS service","Sat Aug 30 21:16:06 GMT 2025","passed","Sat Aug 30 21:16:06 GMT 2025","Validate entity","Files","",""

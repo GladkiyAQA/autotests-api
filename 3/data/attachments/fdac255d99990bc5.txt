@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAxLjczMzYzNSIsInVzZXJfaWQiOiIzNDY4MjllMy0yNjQyLTQxZTktYWQwOC1jN2QyNWJlMWM2YWQifQ.y4FaBwXXTDd3satRBhcteSjzEMj4eJi-RSJvuqdCRy0' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake player husband against trade.","maxScore":79,"minScore":26,"description":"Their begin nice deep bad maintain hard design. Participant officer start skill source.\nVote buy wish Republican through.","estimatedTime":"1 weeks","previewFileId":"0cb030bd-7bbc-466c-a859-c8f1e1059e33","createdByUserId":"346829e3-2642-41e9-ad08-c7d25be1c6ad"}'

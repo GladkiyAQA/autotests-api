@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3c65bc14-9d9b-4e08-9347-c8eea45ba788' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAwLjgxMTI3MiIsInVzZXJfaWQiOiJjYmI4YzI4ZS0xNzk2LTQwZWUtYTQwOC04MTU4NWY3ZDljNjcifQ.4rtmMoRDV1ci6wmhYHQPTxhoqnSEnePgJSXo8zb8h5s' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Successful recent position southern seven.","description":"Career test test attention. Situation save what quite the reason front return. Particularly lay brother method group state.","maxScore":60,"minScore":14,"orderIndex":91,"estimatedTime":"4 weeks"}'

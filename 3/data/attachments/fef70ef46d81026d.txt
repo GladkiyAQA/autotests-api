@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAyLjAwNTk4MSIsInVzZXJfaWQiOiI3MzZjMzkwMy1lY2NlLTQ2N2QtOTUxMy03OTc0MDkyY2YyNTMifQ.tILnzIMKjy6kUUVHFhiKXmTO2Y4FYd9bZuO9Vx4MT8k' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Science common authority should right.","maxScore":69,"minScore":24,"description":"Last point and shoulder. Candidate keep much town.\nBetter establish investment no arrive live. Feel myself environmental boy hour.","estimatedTime":"7 weeks","previewFileId":"6817aaa7-fcc1-420c-816b-a9876db46d73","createdByUserId":"736c3903-ecce-467d-9513-7974092cf253"}'

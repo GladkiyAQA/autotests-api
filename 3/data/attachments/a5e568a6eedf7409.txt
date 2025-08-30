@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAwLjgxMTI3MiIsInVzZXJfaWQiOiJjYmI4YzI4ZS0xNzk2LTQwZWUtYTQwOC04MTU4NWY3ZDljNjcifQ.4rtmMoRDV1ci6wmhYHQPTxhoqnSEnePgJSXo8zb8h5s' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly to data traditional challenge into wait.","maxScore":93,"minScore":15,"description":"Exist be there. Quickly per responsibility soldier.\nDog understand American with. Defense nearly American.","estimatedTime":"4 weeks","previewFileId":"2e08b623-1657-4fb8-862a-e35671ffc14e","createdByUserId":"cbb8c28e-1796-40ee-a408-81585f7d9c67"}'

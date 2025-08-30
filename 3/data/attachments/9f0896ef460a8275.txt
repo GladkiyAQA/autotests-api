@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAyLjk1MTM0MyIsInVzZXJfaWQiOiIzNGEwOTQ2ZC01YzY5LTQ4YzktOTgyNS05OGMxMjY4NzlmNDcifQ.qUhoSwEZg51ALclFFHYX3xhcaR8qLKdVWp4ph2wp7xA' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple measure history Congress continue.","maxScore":83,"minScore":4,"description":"Some fear two popular yes management. City effect each opportunity here.\nProbably no if trouble road. Report feeling social address budget.","estimatedTime":"7 weeks","previewFileId":"bd8093a2-3224-423e-bf3f-b3b909b3eda8","createdByUserId":"34a0946d-5c69-48c9-9825-98c126879f47"}'

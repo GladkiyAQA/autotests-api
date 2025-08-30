@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDIxOjQ2OjAyLjAwNTk4MSIsInVzZXJfaWQiOiI3MzZjMzkwMy1lY2NlLTQ2N2QtOTUxMy03OTc0MDkyY2YyNTMifQ.tILnzIMKjy6kUUVHFhiKXmTO2Y4FYd9bZuO9Vx4MT8k' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size seven single customer professor enjoy who.","courseId":"1a61ffe2-eb0f-453a-bae7-c69702b75004","maxScore":82,"minScore":22,"orderIndex":61,"description":"Interesting south activity treatment wear. Pm story industry because total nation.\nDevelop per PM. Major little serious cover argue. Wonder fear say need thus cultural will.","estimatedTime":"8 weeks"}'
