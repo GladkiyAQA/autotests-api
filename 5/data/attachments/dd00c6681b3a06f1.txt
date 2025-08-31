@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjA0OjAxLjE1NDgyNiIsInVzZXJfaWQiOiI3ZWNlOTg1ZS1kNWE4LTRiN2YtODQxNC0yNzIyZmU5NjQwNTMifQ.NQBzTrQUKt4-TmmczsgfqfeFm9fVcWuqLdh5e-JojF0' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner expect focus.","maxScore":75,"minScore":18,"description":"Actually bar activity player almost. Difference smile try street field.","estimatedTime":"9 weeks","previewFileId":"1f45d2af-0ef4-4625-860e-f7e3aa989a85","createdByUserId":"7ece985e-d5a8-4b7f-8414-2722fe964053"}'

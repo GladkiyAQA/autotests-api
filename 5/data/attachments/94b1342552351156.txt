@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU3LjU3ODExNCIsInVzZXJfaWQiOiJjZWIxYmVlOC0xM2EzLTRlYjktOWU1Zi0zZDAyOTk1ZmViM2IifQ.ydLJbI8F4Rwa4QjzjIANz0jyPTCZiHXqHHvuKVmrIy4' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve fish movie official day.","maxScore":62,"minScore":18,"description":"American value describe cut American walk. Peace east discuss technology garden rather.","estimatedTime":"3 weeks","previewFileId":"1eb8c805-2890-45d1-8050-7a17a67fed39","createdByUserId":"ceb1bee8-13a3-4eb9-9e5f-3d02995feb3b"}'

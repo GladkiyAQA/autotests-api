@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjA0OjAyLjA2Nzc5MCIsInVzZXJfaWQiOiJjMTlhYTA1ZS1lNWExLTQ2YTMtYWIxOC0wMjZmYWNmZjQ0YWEifQ.nuyf_P4MQa_wY23SI_4xZ1dPjjQcvru74-V8Zb5zX8c' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Others without argue know.","maxScore":76,"minScore":2,"description":"Soldier realize kind attention. Risk sea technology if pay whatever say. Collection family little exist though this. Expert whom final then use kind.","estimatedTime":"6 weeks","previewFileId":"b404a363-561c-4a17-8a00-bba04d19df40","createdByUserId":"c19aa05e-e5a1-46a3-ab18-026facff44aa"}'

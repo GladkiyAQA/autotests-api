@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjA0OjAwLjU3MTgyMSIsInVzZXJfaWQiOiJiNDQ3ZDFlZi02MGE4LTQ3YzctOGU2Ni1mMzlmMGYwNmRiZWUifQ.JEKBrpA3k7WTryOsraEHn1hmCrzsAEHw-Y9usbTDaso' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother own religious effect data.","maxScore":91,"minScore":2,"description":"Single ten attorney. Hold single establish both somebody type with. Body single southern property science start yourself.","estimatedTime":"9 weeks","previewFileId":"12525e29-5bd3-4e86-804e-e3227a129f25","createdByUserId":"b447d1ef-60a8-47c7-8e66-f39f0f06dbee"}'

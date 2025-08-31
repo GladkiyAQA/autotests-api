@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU5LjMyNjc1OSIsInVzZXJfaWQiOiI1ZGUyMWNhYi00NGJmLTQ4NjQtYjdkMy1lYzhjZWU1ZWZkMzIifQ.UXcdsTje_OomabCqb27eCS51kL8mbvULlY--JUfHy2w' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Television herself social much upon.","courseId":"db0706cb-101c-4068-9f8a-ae900fff0c28","maxScore":91,"minScore":25,"orderIndex":17,"description":"Rise tell alone just interview. Call myself assume professor field different play. Western strong rate night with.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU5LjMyNjc1OSIsInVzZXJfaWQiOiI1ZGUyMWNhYi00NGJmLTQ4NjQtYjdkMy1lYzhjZWU1ZWZkMzIifQ.UXcdsTje_OomabCqb27eCS51kL8mbvULlY--JUfHy2w' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone modern side common appear consider themselves professional.","maxScore":93,"minScore":7,"description":"Business watch treatment western somebody month develop. Help remember dog ready economic deep century point. Big arrive few.\nMan party race. Boy work charge safe itself.","estimatedTime":"1 weeks","previewFileId":"06b890a9-fa8e-4d4f-8001-76cbf3e8ba98","createdByUserId":"5de21cab-44bf-4864-b7d3-ec8cee5efd32"}'

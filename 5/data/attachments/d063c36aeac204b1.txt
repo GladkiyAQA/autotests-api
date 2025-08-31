@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU4LjE1OTE4NyIsInVzZXJfaWQiOiIwMmJmZGY5NS04YjljLTQ4Y2ItOTFmYy1iMDA4YmJmZGM0ZTkifQ.wdobSkGlGErrZyVvurwNddyl9bCN56toYKHlamXBdWk' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake manage staff include.","maxScore":86,"minScore":23,"description":"Employee wind discussion despite major increase debate. Be white hotel best animal. On local myself middle leave protect. And instead report listen.","estimatedTime":"3 weeks","previewFileId":"c2887428-1f6e-4b9c-9c9b-de8041ebae7e","createdByUserId":"02bfdf95-8b9c-48cb-91fc-b008bbfdc4e9"}'

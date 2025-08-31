@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU5Ljk3NjgwMCIsInVzZXJfaWQiOiJlZmM0YTFjZi02ZWI4LTRmN2UtYmE2NS0zYWQyZjBkNzEzYmUifQ.PisnSR4yHvjHzbZnTuqb0SNNAr-nQ0k5hQsOwMrLFtM' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test job similar military watch name team.","maxScore":79,"minScore":13,"description":"Water life old evidence subject any scene. Provide mother information sort. Test money politics popular buy entire.","estimatedTime":"9 weeks","previewFileId":"0bf1ca53-3c65-48e9-a244-8ba6eb898ad8","createdByUserId":"efc4a1cf-6eb8-4f7e-ba65-3ad2f0d713be"}'

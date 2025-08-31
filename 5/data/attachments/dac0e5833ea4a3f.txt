@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMxVDA4OjAzOjU4Ljc0MzEwNCIsInVzZXJfaWQiOiJhMTMzZDdiOS0wZTIzLTRiMGUtYjM4Yi1jODRmOTlmZWE5NTgifQ.6vvAgUKk_IdQWP0k-ilRvfx2FuA1bpL5dYYtDfbOts4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon grow source difficult.","maxScore":65,"minScore":24,"description":"Better season lot beyond stage. Suggest produce about collection yes involve.\nChallenge many can security. Within truth on room evidence it there. Type wear blood whole animal old reveal.","estimatedTime":"8 weeks","previewFileId":"baef5ded-33df-4305-9fd2-005ac4fbf1a5","createdByUserId":"a133d7b9-0e23-4b0e-b38b-c84f99fea958"}'
